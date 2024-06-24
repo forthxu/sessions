@@ -2,8 +2,8 @@ package main
 
 import (
 	"database/sql"
-	"github.com/gin-contrib/sessions"
-	"github.com/gin-contrib/sessions/postgres"
+	"github.com/forthxu/sessions"
+	"github.com/forthxu/sessions/postgres"
 	"github.com/gin-gonic/gin"
 )
 

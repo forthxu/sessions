@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/gin-contrib/sessions"
-	"github.com/gin-contrib/sessions/redis"
+	"github.com/forthxu/sessions"
+	"github.com/forthxu/sessions/redis"
 	"github.com/gin-gonic/gin"
 )
 

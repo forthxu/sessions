@@ -1,7 +1,7 @@
 package cookie
 
 import (
-	"github.com/gin-contrib/sessions"
+	"github.com/forthxu/sessions"
 	gsessions "github.com/gorilla/sessions"
 )
 

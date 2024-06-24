@@ -3,8 +3,8 @@ package mongomgo
 import (
 	"testing"
 
-	"github.com/gin-contrib/sessions"
-	"github.com/gin-contrib/sessions/tester"
+	"github.com/forthxu/sessions"
+	"github.com/forthxu/sessions/tester"
 	"github.com/globalsign/mgo"
 )
 

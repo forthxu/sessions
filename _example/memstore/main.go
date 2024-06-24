@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/gin-contrib/sessions"
-	"github.com/gin-contrib/sessions/memstore"
+	"github.com/forthxu/sessions"
+	"github.com/forthxu/sessions/memstore"
 	"github.com/gin-gonic/gin"
 )
 

@@ -1,10 +1,10 @@
 # sessions
 
-[![Run CI Lint](https://github.com/gin-contrib/sessions/actions/workflows/lint.yml/badge.svg?branch=master)](https://github.com/gin-contrib/sessions/actions/workflows/lint.yml)
-[![Run Testing](https://github.com/gin-contrib/sessions/actions/workflows/testing.yml/badge.svg?branch=master)](https://github.com/gin-contrib/sessions/actions/workflows/testing.yml)
-[![codecov](https://codecov.io/gh/gin-contrib/sessions/branch/master/graph/badge.svg)](https://codecov.io/gh/gin-contrib/sessions)
-[![Go Report Card](https://goreportcard.com/badge/github.com/gin-contrib/sessions)](https://goreportcard.com/report/github.com/gin-contrib/sessions)
-[![GoDoc](https://godoc.org/github.com/gin-contrib/sessions?status.svg)](https://godoc.org/github.com/gin-contrib/sessions)
+[![Run CI Lint](https://github.com/forthxu/sessions/actions/workflows/lint.yml/badge.svg?branch=master)](https://github.com/forthxu/sessions/actions/workflows/lint.yml)
+[![Run Testing](https://github.com/forthxu/sessions/actions/workflows/testing.yml/badge.svg?branch=master)](https://github.com/forthxu/sessions/actions/workflows/testing.yml)
+[![codecov](https://codecov.io/gh/forthxu/sessions/branch/master/graph/badge.svg)](https://codecov.io/gh/forthxu/sessions)
+[![Go Report Card](https://goreportcard.com/badge/github.com/forthxu/sessions)](https://goreportcard.com/report/github.com/forthxu/sessions)
+[![GoDoc](https://godoc.org/github.com/forthxu/sessions?status.svg)](https://godoc.org/github.com/forthxu/sessions)
 
 Gin middleware for session management with multi-backend support:
 
@@ -23,13 +23,13 @@ Gin middleware for session management with multi-backend support:
 Download and install it:
 
 ```bash
-go get github.com/gin-contrib/sessions
+go get github.com/forthxu/sessions
 ```
 
 Import it in your code:
 
 ```go
-import "github.com/gin-contrib/sessions"
+import "github.com/forthxu/sessions"
 ```
 
 ## Basic Examples
@@ -40,8 +40,8 @@ import "github.com/gin-contrib/sessions"
 package main
 
 import (
-  "github.com/gin-contrib/sessions"
-  "github.com/gin-contrib/sessions/cookie"
+  "github.com/forthxu/sessions"
+  "github.com/forthxu/sessions/cookie"
   "github.com/gin-gonic/gin"
 )
 
@@ -70,8 +70,8 @@ func main() {
 package main
 
 import (
-  "github.com/gin-contrib/sessions"
-  "github.com/gin-contrib/sessions/cookie"
+  "github.com/forthxu/sessions"
+  "github.com/forthxu/sessions/cookie"
   "github.com/gin-gonic/gin"
 )
 
@@ -112,8 +112,8 @@ func main() {
 package main
 
 import (
-  "github.com/gin-contrib/sessions"
-  "github.com/gin-contrib/sessions/cookie"
+  "github.com/forthxu/sessions"
+  "github.com/forthxu/sessions/cookie"
   "github.com/gin-gonic/gin"
 )
 
@@ -146,8 +146,8 @@ func main() {
 package main
 
 import (
-  "github.com/gin-contrib/sessions"
-  "github.com/gin-contrib/sessions/redis"
+  "github.com/forthxu/sessions"
+  "github.com/forthxu/sessions/redis"
   "github.com/gin-gonic/gin"
 )
 
@@ -183,8 +183,8 @@ package main
 
 import (
   "github.com/bradfitz/gomemcache/memcache"
-  "github.com/gin-contrib/sessions"
-  "github.com/gin-contrib/sessions/memcached"
+  "github.com/forthxu/sessions"
+  "github.com/forthxu/sessions/memcached"
   "github.com/gin-gonic/gin"
 )
 
@@ -217,8 +217,8 @@ func main() {
 package main
 
 import (
-  "github.com/gin-contrib/sessions"
-  "github.com/gin-contrib/sessions/memcached"
+  "github.com/forthxu/sessions"
+  "github.com/forthxu/sessions/memcached"
   "github.com/gin-gonic/gin"
   "github.com/memcachier/mc"
 )
@@ -255,8 +255,8 @@ func main() {
 package main
 
 import (
-  "github.com/gin-contrib/sessions"
-  "github.com/gin-contrib/sessions/mongo/mongomgo"
+  "github.com/forthxu/sessions"
+  "github.com/forthxu/sessions/mongo/mongomgo"
   "github.com/gin-gonic/gin"
   "github.com/globalsign/mgo"
 )
@@ -297,8 +297,8 @@ package main
 
 import (
   "context"
-  "github.com/gin-contrib/sessions"
-  "github.com/gin-contrib/sessions/mongo/mongodriver"
+  "github.com/forthxu/sessions"
+  "github.com/forthxu/sessions/mongo/mongodriver"
   "github.com/gin-gonic/gin"
   "go.mongodb.org/mongo-driver/mongo"
   "go.mongodb.org/mongo-driver/mongo/options"
@@ -344,8 +344,8 @@ func main() {
 package main
 
 import (
-  "github.com/gin-contrib/sessions"
-  "github.com/gin-contrib/sessions/memstore"
+  "github.com/forthxu/sessions"
+  "github.com/forthxu/sessions/memstore"
   "github.com/gin-gonic/gin"
 )
 
@@ -378,8 +378,8 @@ func main() {
 package main
 
 import (
-  "github.com/gin-contrib/sessions"
-  gormsessions "github.com/gin-contrib/sessions/gorm"
+  "github.com/forthxu/sessions"
+  gormsessions "github.com/forthxu/sessions/gorm"
   "github.com/gin-gonic/gin"
   "gorm.io/driver/sqlite"
   "gorm.io/gorm"
@@ -420,8 +420,8 @@ package main
 
 import (
   "database/sql"
-  "github.com/gin-contrib/sessions"
-  "github.com/gin-contrib/sessions/postgres"
+  "github.com/forthxu/sessions"
+  "github.com/forthxu/sessions/postgres"
   "github.com/gin-gonic/gin"
 )
 
