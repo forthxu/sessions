@@ -42,7 +42,7 @@ package main
 import (
   "github.com/forthxu/sessions"
   "github.com/forthxu/sessions/cookie"
-  "github.com/gin-gonic/gin"
+  "github.com/forthxu/gin"
 )
 
 func main() {
@@ -72,7 +72,7 @@ package main
 import (
   "github.com/forthxu/sessions"
   "github.com/forthxu/sessions/cookie"
-  "github.com/gin-gonic/gin"
+  "github.com/forthxu/gin"
 )
 
 func main() {
@@ -114,7 +114,7 @@ package main
 import (
   "github.com/forthxu/sessions"
   "github.com/forthxu/sessions/cookie"
-  "github.com/gin-gonic/gin"
+  "github.com/forthxu/gin"
 )
 
 func main() {
@@ -148,7 +148,7 @@ package main
 import (
   "github.com/forthxu/sessions"
   "github.com/forthxu/sessions/redis"
-  "github.com/gin-gonic/gin"
+  "github.com/forthxu/gin"
 )
 
 func main() {
@@ -185,7 +185,7 @@ import (
   "github.com/bradfitz/gomemcache/memcache"
   "github.com/forthxu/sessions"
   "github.com/forthxu/sessions/memcached"
-  "github.com/gin-gonic/gin"
+  "github.com/forthxu/gin"
 )
 
 func main() {
@@ -219,7 +219,7 @@ package main
 import (
   "github.com/forthxu/sessions"
   "github.com/forthxu/sessions/memcached"
-  "github.com/gin-gonic/gin"
+  "github.com/forthxu/gin"
   "github.com/memcachier/mc"
 )
 
@@ -257,7 +257,7 @@ package main
 import (
   "github.com/forthxu/sessions"
   "github.com/forthxu/sessions/mongo/mongomgo"
-  "github.com/gin-gonic/gin"
+  "github.com/forthxu/gin"
   "github.com/globalsign/mgo"
 )
 
@@ -299,7 +299,7 @@ import (
   "context"
   "github.com/forthxu/sessions"
   "github.com/forthxu/sessions/mongo/mongodriver"
-  "github.com/gin-gonic/gin"
+  "github.com/forthxu/gin"
   "go.mongodb.org/mongo-driver/mongo"
   "go.mongodb.org/mongo-driver/mongo/options"
 )
@@ -346,7 +346,7 @@ package main
 import (
   "github.com/forthxu/sessions"
   "github.com/forthxu/sessions/memstore"
-  "github.com/gin-gonic/gin"
+  "github.com/forthxu/gin"
 )
 
 func main() {
@@ -380,7 +380,7 @@ package main
 import (
   "github.com/forthxu/sessions"
   gormsessions "github.com/forthxu/sessions/gorm"
-  "github.com/gin-gonic/gin"
+  "github.com/forthxu/gin"
   "gorm.io/driver/sqlite"
   "gorm.io/gorm"
 )
@@ -422,7 +422,7 @@ import (
   "database/sql"
   "github.com/forthxu/sessions"
   "github.com/forthxu/sessions/postgres"
-  "github.com/gin-gonic/gin"
+  "github.com/forthxu/gin"
 )
 
 func main() {

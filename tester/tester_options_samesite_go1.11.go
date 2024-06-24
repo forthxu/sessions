@@ -10,7 +10,7 @@ import (
 	"testing"
 
 	"github.com/forthxu/sessions"
-	"github.com/gin-gonic/gin"
+	"github.com/forthxu/gin"
 )
 
 func testOptionSameSitego(t *testing.T, r *gin.Engine) {

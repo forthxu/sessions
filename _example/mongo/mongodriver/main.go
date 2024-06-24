@@ -4,7 +4,7 @@ import (
 	"context"
 	"github.com/forthxu/sessions"
 	"github.com/forthxu/sessions/mongo/mongodriver"
-	"github.com/gin-gonic/gin"
+	"github.com/forthxu/gin"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
 )

@@ -3,7 +3,7 @@ package main
 import (
 	"github.com/forthxu/sessions"
 	"github.com/forthxu/sessions/mongo/mongomgo"
-	"github.com/gin-gonic/gin"
+	"github.com/forthxu/gin"
 	"github.com/globalsign/mgo"
 )
 

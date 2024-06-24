@@ -10,7 +10,7 @@ import (
 	"testing"
 
 	"github.com/forthxu/sessions"
-	"github.com/gin-gonic/gin"
+	"github.com/forthxu/gin"
 )
 
 type storeFactory func(*testing.T) sessions.Store

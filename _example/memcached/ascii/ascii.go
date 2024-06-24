@@ -4,7 +4,7 @@ import (
 	"github.com/bradfitz/gomemcache/memcache"
 	"github.com/forthxu/sessions"
 	"github.com/forthxu/sessions/memcached"
-	"github.com/gin-gonic/gin"
+	"github.com/forthxu/gin"
 )
 
 func main() {

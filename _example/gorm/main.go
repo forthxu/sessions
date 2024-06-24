@@ -3,7 +3,7 @@ package main
 import (
 	"github.com/forthxu/sessions"
 	gormsessions "github.com/forthxu/sessions/gorm"
-	"github.com/gin-gonic/gin"
+	"github.com/forthxu/gin"
 	"gorm.io/driver/sqlite"
 	"gorm.io/gorm"
 )

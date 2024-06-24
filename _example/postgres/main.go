@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"github.com/forthxu/sessions"
 	"github.com/forthxu/sessions/postgres"
-	"github.com/gin-gonic/gin"
+	"github.com/forthxu/gin"
 )
 
 func main() {
